@@ -1,0 +1,11 @@
+.:53 {
+    forward . 168.63.129.16
+    log
+    errors
+}
+
+mosaiklabs.local:53 {
+    forward . 10.0.0.10
+    log
+    errors
+}
