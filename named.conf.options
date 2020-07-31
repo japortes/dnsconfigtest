@@ -1,0 +1,12 @@
+options {
+        directory "/var/cache/bind";
+         forwarders {
+                168.63.129.16;
+         };
+         zone "mosaiklabs.local" {
+         type forward;
+         forwarders { 10.0.0.10; };
+         };
+
+        listen-on { any; };
+};
